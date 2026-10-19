@@ -141,7 +141,3 @@ The final stage emits MIPS assembly. Producing a linked executable requires a co
 - The scanner reads `src/scanner/dfa.txt`; `scripts/compile.sh` selects the correct working directory automatically.
 - The source preserves the original implementation style and data structures used while developing the compiler.
 
-## 中文简介
-
-该项目使用 C++ 实现了一个面向 WLP4（简化 C 语言）的完整编译流水线，包括词法分析、LR 语法分析、类型与语义检查，以及带代码体积优化的 MIPS 汇编生成。编译器支持条件语句、循环、函数、递归、指针、动态数组和基础输入输出，并通过常量折叠、值传播、栈指针更新合并、未使用函数消除等方式减少生成代码体积。
-
