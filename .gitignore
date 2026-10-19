@@ -1,0 +1,12 @@
+/build/
+*.o
+*.obj
+*.exe
+*.asm
+*.mips
+*.merl
+*.bin
+*.out
+.DS_Store
+.idea/
+.vscode/
